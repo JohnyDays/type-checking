@@ -1,7 +1,7 @@
 {
   "name": "type-checking",
-  "version": "1.0.0",
-  "description": "Type checking, check for what you need.  Mainly for framework developers",
+  "version": "1.0.1",
+  "description": "Check for what you need.  Mainly for framework developers",
   "main": "index.js",
   "scripts": {
     "test": "mocha -w sources --compilers coffee:coffee-script/register tests"
