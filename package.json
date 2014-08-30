@@ -1,0 +1,33 @@
+{
+  "name": "type-checking",
+  "version": "1.0.0",
+  "description": "Type checking, check for what you need.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w sources --compilers coffee:coffee-script/register tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JohnyDays/type-checking"
+  },
+  "keywords": [
+    "type-check",
+    "type",
+    "checking",
+    "interface",
+    "abstract",
+    "duck-typing"
+  ],
+  "author": "JohnyDays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnyDays/type-checking/issues"
+  },
+  "homepage": "https://github.com/JohnyDays/type-checking",
+  "dependencies": {
+    "coffee-script": "~1.8.0"
+  },
+  "devDependencies": {
+    "should": "~4.0.4"
+  }
+}
