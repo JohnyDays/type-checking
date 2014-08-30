@@ -1,4 +1,4 @@
-require "../register"
+require('../register')('implements')
 require 'should'
 
 natives = require('../sources/nativeInterfaces.coffee')
